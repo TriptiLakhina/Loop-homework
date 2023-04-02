@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class LoopHomework
+public class NumberRange10
 {
 
     Scanner scanner=new Scanner(System.in);
@@ -10,8 +10,8 @@ public class LoopHomework
 
     public static void main(String[] args )
     {
-        LoopHomework loopHomework=new LoopHomework();
-        loopHomework.print10numbers();
+        NumberRange10 numberRange10=new NumberRange10();
+        numberRange10.print10numbers();
 
     }
 
