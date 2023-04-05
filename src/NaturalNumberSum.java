@@ -54,7 +54,7 @@ public class NaturalNumberSum
         }
 
         // print command if the number entered by user is not a natural number
-        else if (numn<=0)
+        else
         {
             System.out.println("Invalid entry, please enter a natural number i.e., a positive whole number.");
         }
