@@ -21,9 +21,13 @@ public class LoopNumberReverse
     // No return type no parameters
     public void reverseTheNumber()
     {
+        // message to user for what to enter
         System.out.println("Please enter a number to reverse");
 
+        //Storing variable using scanner object
         int number= scanner.nextInt();
+
+        // Storing and Initializing the variable
         int reverse = 0;
 
 
