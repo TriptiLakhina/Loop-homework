@@ -3,13 +3,11 @@ import java.util.Scanner;
 // Writing a program using scanner class to display the numbers and their sum for the user input natural number
 public class NaturalNumberSum
 {
-
     // Creating object for scanner class to take the input
     Scanner scanner=new Scanner(System.in);
 
     public static void main(String[] args)
     {
-
         // Creating class object to call non-static method to static area
         NaturalNumberSum naturalNumberSum=new NaturalNumberSum();
 
@@ -43,7 +41,6 @@ public class NaturalNumberSum
 
             // print command to get the list of numbers upto the user input number
             System.out.println(i);
-
 
         }
 

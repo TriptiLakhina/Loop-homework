@@ -34,7 +34,7 @@ Scanner scanner=new Scanner(System.in);
             // using forloop to find the sum of all numbers upto the user input number ranging from 1-20
             for (int x = 0; x <= a; x++)
                 sum = sum + x;
-            System.out.println ("The sum of " +a+ " is " + sum);
+            System.out.println ("Sum of all numbers upto your number " +a+ " is " + sum);
 
         }else
         {

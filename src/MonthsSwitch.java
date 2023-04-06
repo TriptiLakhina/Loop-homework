@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
 // Writing a program using scanner class to find out month name from the month number input by the user
-public class MonthsSwitch {
-
+public class MonthsSwitch
+{
     // Creating object for scanner class to take input
     Scanner scanner=new Scanner(System.in);
-    public static void main(String[] args) {
-
+    public static void main(String[] args)
+    {
         // Creating class object to call non-static method in static area
         MonthsSwitch monthsSwitch=new MonthsSwitch();
 
@@ -19,8 +19,8 @@ public class MonthsSwitch {
 
 
     // no return type no parameters
-    void findMonthName(){
-
+    void findMonthName()
+    {
         //acknowledge user what to input
         System.out.println("Enter any number from 1-12 to get the month name");
 
@@ -29,7 +29,8 @@ public class MonthsSwitch {
 
 
         // using switch to get the month names according to the month numbers
-        switch (number){
+        switch (number)
+        {
             case 1:
                 System.out.println("Month number " +number+ " is January");
                 break;

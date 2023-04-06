@@ -3,7 +3,6 @@ import java.util.Scanner;
 // Writing a program using scanner class to find the fibonacci number sequence upto the user input number
 public class FibonacciNumberSequence
 {
-
     // Creating object for Scanner class to take input
     Scanner scanner=new Scanner(System.in);
 
@@ -11,7 +10,6 @@ public class FibonacciNumberSequence
 
     public static void main(String[] args)
     {
-
         // creating class object to call non-static method to static area
         FibonacciNumberSequence fibonacciNumberSequence=new FibonacciNumberSequence();
 
@@ -25,7 +23,6 @@ public class FibonacciNumberSequence
     // No return type no parameters
     public void printFibonacciSequence()
     {
-
         // message to user for what to enter
         System.out.println("Please input a number to see Fibonacci number sequence upto your number");
 
@@ -41,8 +38,6 @@ public class FibonacciNumberSequence
         // using forloop to find the fibonacci number sequence
         for (int i = 1; i <= n; i++)
         {
-
-
 
             if (i<=1)
             {

@@ -1,14 +1,14 @@
 import java.util.Scanner;
 
 // Writing a program using scanner class to count number of 'a' in the string input by user.
-public class A_Count_In_String {
-
+public class A_Count_In_String
+{
     // Creating object for Scanner class to take input
     Scanner scanner=new Scanner(System.in);
 
 
-    public static void main(String[] args) {
-
+    public static void main(String[] args)
+    {
         // creating class object to call non-static method to static area
         A_Count_In_String a_count_in_string = new A_Count_In_String();
 
@@ -19,10 +19,10 @@ public class A_Count_In_String {
 
 
     // No return type no parameters
-    public void countTotalNumberOfA(){
-
+    public void countTotalNumberOfA()
+    {
         // message to user for what to enter
-        System.out.println("Enter any word/s or sentence/s");
+        System.out.println("\nEnter any word/s or sentence/s");
 
         //Storing variables using scanner object
         String sentence=scanner.nextLine();
@@ -32,7 +32,8 @@ public class A_Count_In_String {
         int charCount = sentence.length() - sentence.replaceAll("a", "").length();
 
         //using forloop to count occurrence of 'a' in the string input.
-        for (int i = 0; i < charCount; i++) {
+        for (int i = 0; i < charCount; i++)
+        {
             if (sentence.charAt(i) != ' ')          //writing a condition to go to count increment & print output only if string/character input is not blank.
                 count++;
 

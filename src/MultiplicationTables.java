@@ -29,6 +29,8 @@ public class MultiplicationTables
         int number=scanner.nextInt();
 
 
+        // message to display to the user with the output
+        System.out.println("\nMultiplication table for number "+ number+ " :");
         // using forloop to get the multiplication table
         for (int i=number; i<=number; i++)
         {

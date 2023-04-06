@@ -3,7 +3,6 @@ import java.util.Scanner;
 // Writing a program using scanner class to print the numbers from the user input range of 10 numbers
 public class NumberRange10
 {
-
     // Creating object from scanner class to take the input
     Scanner scanner = new Scanner(System.in);
 
@@ -21,9 +20,8 @@ public class NumberRange10
 
     public void print10numbers()
     {
-
         // message to user for what to enter
-        System.out.println("Please write 2 numbers to provide a range of 10 numbers ex 1-10, pressing enter after each input. ");
+        System.out.println("\nPlease write 2 numbers to provide a range of 10 numbers ex 1-10, \nstarting with small number followed by the bigger number & please press enter after each input. ");
 
         // Storing variables using scanner object
         int rangenumber1 = scanner.nextInt();
@@ -33,7 +31,7 @@ public class NumberRange10
         // writing message to display to the user with the output only if the input range is of 10 numbers
         if (rangenumber1 + 9 == rangenumber2)
         {
-            System.out.println("\nHere is the list of all the numbers in your range " + rangenumber1 + "-" + rangenumber2 + ":");
+            System.out.println("\nHere is the list of all the numbers in your range " + rangenumber1 + " to " + rangenumber2 + ":");
 
             // using forloop to get the list of numbers according to the user input range
             for (int i = rangenumber1; (i <= rangenumber2) && (rangenumber1 + 9 == rangenumber2); i++)

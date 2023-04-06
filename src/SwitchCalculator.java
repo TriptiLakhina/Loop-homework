@@ -3,7 +3,6 @@ import java.util.Scanner;
 // Writing a program using scanner class to calculate + , - , * , / of 2 numbers where the numbers & calculation operator is input by user
 public class SwitchCalculator
 {
-
     // Creating object for Scanner class to take input
     Scanner scanner=new Scanner(System.in);
 
@@ -11,7 +10,6 @@ public class SwitchCalculator
 
     public static void main(String[] args)
     {
-
         // creating class object to call non-static method to static area
         SwitchCalculator switchCalculator=new SwitchCalculator();
 
@@ -24,7 +22,6 @@ public class SwitchCalculator
     // No return type no parameters
     void calculate()
     {
-
         // message to user for what to enter
         System.out.println("Enter any 2 integer numbers & press enter after each number");
 
