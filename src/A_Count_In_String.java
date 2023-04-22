@@ -32,7 +32,7 @@ public class A_Count_In_String
         int charCount = sentence.length() - sentence.replaceAll("a", "").length();
 
         //using forloop to count occurrence of 'a' in the string input.
-        for (int i = 0; i < charCount; i++)
+        for (int i = 0; i <= charCount; i++)
         {
             if (sentence.charAt(i) != ' ')          //writing a condition to go to count increment & print output only if string/character input is not blank.
                 count++;
